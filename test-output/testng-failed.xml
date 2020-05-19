@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.herokuapp.testcases.Testcase1">
+      <class name="com.practice.programs.WaitTest">
         <methods>
-          <include name="teardown"/>
-          <include name="TC2"/>
-          <include name="setup"/>
-          <include name="TC3"/>
-          <include name="TC1"/>
+          <include name="testUntitled"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.herokuapp.testcases.Testcase1 -->
+      </class> <!-- com.practice.programs.WaitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
