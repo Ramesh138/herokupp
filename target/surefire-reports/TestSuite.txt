@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.398 sec <<< FAILURE!
+testUntitled(com.practice.programs.WaitTest)  Time elapsed: 8.322 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.practice.programs.WaitTest.testUntitled(WaitTest.java:48)
+

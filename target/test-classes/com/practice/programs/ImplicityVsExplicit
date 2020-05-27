@@ -1,5 +1,0 @@
-Implicit Vs. Explicit Waits
-Implicit Waits																								Explicit Waits
-1. Implicit wait time is applied to all the elements in the script											1. Explicit wait time is applied only to those elements that are specified by the user
-2. In implicit wait, we need not specify “ExpectedConditions” on the element to be located					2. In explicit wait, we need to specify the “ExpectedConditions” on the element to be located
-3. It is recommended to use when the elements are located with the time frame specified in implicit wait	3. It is recommended to use when the elements are taking a long time to load and also for verifying the property of the element like(visibilityOfElementLocated, elementToBeClickable,elementToBeSelected)
